@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-style {
+    @apply w-full p-1 px-2 rounded-md text-slate-900 font-semibold mb-2 shadow-lg;
+}
+.label-text {
+    @apply mb-2 text-gray-200 tracking-wide font-semibold text-xl;
+}
