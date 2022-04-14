@@ -50,19 +50,19 @@ const Forms = () => {
     <div className='h-auto mt-4 flex flex-row justify-center p-2'>
         
         <section className='bg-slate-700 lg:w-1/2 h-auto p-8'>
-        <div className='bg-slate-500 text-gray-100 h-auto rounded-md shadow-xl mb-4'>
-        {
-            submitting && 
-            <div className='p-3'>
-                You are Submitting the following: 
-                <ul>
-                    {Object.entries(userInputData).map(([name,value]) => (
-                        <li key={name}><strong>{name}</strong>: {value.toString()} </li>
-                    ))}
-                </ul>
+            <div className='bg-slate-500 text-gray-100 h-auto rounded-md shadow-xl mb-4'>
+            {
+                submitting && 
+                <div className='p-3'>
+                    You are Submitting the following: 
+                    <ul>
+                        {Object.entries(userInputData).map(([name,value]) => (
+                            <li key={name}><strong>{name}</strong>: {value.toString()} </li>
+                        ))}
+                    </ul>
+                </div>
+            }
             </div>
-        }
-        </div>
             <form action="" onSubmit={handleSubmit}>
                 <fieldset className='grid lg:grid-cols-2 gap-2'>
                     <label htmlFor="">
