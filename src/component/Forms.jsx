@@ -49,7 +49,7 @@ const Forms = () => {
   return (
     <div className='h-auto mt-4 flex flex-row justify-center p-3'>
         
-        <section className='bg-slate-700 lg:w-1/2 h-auto p-8'>
+        <section className='bg-slate-700 md:w-1/2 h-auto p-8'>
         <div className='bg-slate-500 text-gray-100 h-auto rounded-md shadow-xl mb-4'>
         {
             submitting && 
